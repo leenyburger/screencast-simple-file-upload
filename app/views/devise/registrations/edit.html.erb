@@ -13,12 +13,18 @@
         <%= f.email_field :email, class: 'form-control', placeholder: 'Email Address' %>
       </div>
 
+<%# If you do not want previews to be shown, remove "if false" and use below form-group %>
+  <% if false%>
       <div class="form-group">
         <%= f.label :avatar %>
-        <%= f.file_field :avatar, accept:'image/*' %>
+        <%= f.hidden_field :avatar_url, class: "simple-file-upload", data: { preview: false }%>
       </div>
+  <% end %>
 
-      <%= image_tag avatar_path(f.object), class: "rounded border shadow-sm d-block mx-auto my-3" %>      
+      <div class="form-group">
+        <%= f.label :avatar %>
+        <%= f.hidden_field :avatar_url, class: "simple-file-upload", data: { preview: true }%>
+      </div>
 
       <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
         <div class="alert alert-warning">Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
