@@ -5,7 +5,7 @@ This file is forked from the popular Rails Template [jumpstart](https://github.c
 
 ## Getting started
 
-# Adding your Simple File Upload API key
+### Adding your Simple File Upload API key
 Sign up for a free trial at www.simplefileupload.com or through the [Heroku marketplace](https://elements.heroku.com/addons/simple-file-upload)
 
 Replace the text in the `script` tag in `_head` with the provided API key. 
