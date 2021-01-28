@@ -1,24 +1,20 @@
-# README
+# Simple File Upload
+This file accompanies the screen cast [here][https://www.youtube.com/watch?v=1BB4hPugSQQ] detailing how to install the Simple File Upload component in a Rails application. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This file is forked from the popular Rails Template [jumpstart][https://github.com/excid3/jumpstart]
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+# Adding your Simple File Upload API key
+Sign up for a free trial at www.simplefileupload.com or through the [Heroku marketplace][https://elements.heroku.com/addons/simple-file-upload]
 
-* System dependencies
+Replace the text in the `script` tag in `_head` with the provided API key. 
 
-* Configuration
+#Running your app
+To run your app, use foreman start. Foreman will run Procfile.dev via foreman start -f Procfile.dev as configured by the .foreman file and will launch the development processes rails server, sidekiq, and webpack-dev-server processes.
 
-* Database creation
+You can also run them in separate terminals manually if you prefer.
 
-* Database initialization
+Please [reach out](mailto:colleen@simplefileupload.com?subject=QuestionsFromGithub) with and questions
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
