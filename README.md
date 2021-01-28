@@ -1,12 +1,12 @@
 # Simple File Upload
-This file accompanies the screen cast [here][https://www.youtube.com/watch?v=1BB4hPugSQQ] detailing how to install the Simple File Upload component in a Rails application. 
+This file accompanies the screen cast [here](https://www.youtube.com/watch?v=1BB4hPugSQQ) detailing how to install the Simple File Upload component in a Rails application. 
 
-This file is forked from the popular Rails Template [jumpstart][https://github.com/excid3/jumpstart]
+This file is forked from the popular Rails Template [jumpstart](https://github.com/excid3/jumpstart)
 
 ## Getting started
 
 # Adding your Simple File Upload API key
-Sign up for a free trial at www.simplefileupload.com or through the [Heroku marketplace][https://elements.heroku.com/addons/simple-file-upload]
+Sign up for a free trial at www.simplefileupload.com or through the [Heroku marketplace](https://elements.heroku.com/addons/simple-file-upload)
 
 Replace the text in the `script` tag in `_head` with the provided API key. 
 
